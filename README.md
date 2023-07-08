@@ -1,19 +1,19 @@
-# Go Language Conference Booking System
+# 🚀 Go Language Conference Booking System
 
-This repository contains a simple Go application that simulates a conference booking system. The application allows users to book tickets for a conference named "Go Conference". The booking details are stored in memory and not persisted in any database.
+This repository contains a simple Go application 📜 that simulates a conference booking system. 📅 The application allows users to book tickets 🎟️ for a conference named "Go Conference". The booking details are stored in memory 💾 and not persisted in any database.
 
-## Application Overview
+## 📑 Application Overview
 
 The application is designed around a conference with a total of 50 tickets. It exposes a simple text-based user interface that prompts users to enter their details and book tickets. The user details required are:
 
-- First Name
-- Last Name
-- Email Address
-- Number of Tickets
+- First Name 👤
+- Last Name 👥
+- Email Address 📧
+- Number of Tickets 🎟️
 
 Once the user provides valid input, the application books the tickets and deducts the number of booked tickets from the total available tickets. The application also simulates sending a ticket to the user's email address (note that no actual email is sent).
 
-## Code Overview
+## 🛠️ Code Overview
 
 ### Import Statements
 
@@ -49,11 +49,11 @@ There are several helper functions that are used to perform specific tasks:
 
 Please note that Go, being a statically-typed, compiled language, is not based on the Object-Oriented Programming (OOP) paradigm like Python or Java. Instead, it utilizes its own unique paradigms and concepts. However, it does support struct types which can have methods associated with them, somewhat similar to classes in OOP.
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Requirements
 
-- Go 1.x
+- Go 1.x 🏁
 
 ### Installation
 
@@ -75,13 +75,13 @@ cd go_coding
 go run main.go
 ```
 
-## Application Usage
+## 🎮 Application Usage
 
 Once the application is running, follow the on-screen prompts to book tickets for the "Go Conference". You will need to provide your first name, last name, email address, and the number of tickets you wish to book.
 
 Note: The application checks for basic validation such as whether the name is too short or the email address doesn't contain the "@" sign. It also checks that the number of tickets requested is available.
 
-## License
+## 📜 License
 
 This project is open-sourced software licensed under the MIT license.
 
